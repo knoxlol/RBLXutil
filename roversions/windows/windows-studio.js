@@ -1,7 +1,7 @@
 // Run in your browser's console
-// Retrives version for the windows port of RobloxStudio (non-QT).
+// Retrives version for the windows port of RobloxStudio.
 
-const endpoint = 'https://setup.rbxcdn.com/versionStudio'; // This is the endpoint for the Windows version of RobloxStudio (non-QT).
+const endpoint = 'https://setup.rbxcdn.com/versionStudio'; // This is the endpoint for the Windows version of RobloxStudio.
 
 fetch(endpoint)
   .then(response => {
